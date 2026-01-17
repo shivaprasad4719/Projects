@@ -1,3 +1,0 @@
-## Automated Image Deployment on AWS EC2
-## Overview
-This project demonstrates end-to-end infrastructure automation and application deployment on AWS using Terraform, Ansible, and Bash scripting, with CloudWatch for monitoring and logging.
