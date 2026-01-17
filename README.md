@@ -1,44 +1,37 @@
-## AWS DevOps Projects Portfolio
-I am an AWS DevOps Engineer with hands-on experience in designing, automating, and managing cloud infrastructure and CI/CD pipelines.
-This repository serves as an overview hub for my real-world AWS DevOps projects, showcasing practical use of industry-standard tools and best practices.
-## 🧰 DevOps Tools & Technologies
-☁️ Cloud Platforms
-- Amazon Web Services (AWS)
-   - EC2, VPC, IAM
-   - S3, CloudWatch
-   - ELB / ALB
-   - Auto Scaling
-   - EKS
-
-## 🔧 Infrastructure as Code
-- Terraform
-- Modular & reusable IaC
-- Remote backend (S3 + DynamoDB)
-
-## 🔄 CI/CD & Automation
-- Jenkins
-- GitHub Webhooks
-- Jenkins Pipelines (Declarative)
-- Shell & Bash scripting
-
-## 📦 Containerization & Orchestration
-- Docker
-- Kubernetes (EKS)
-
-## Helm Charts
-- Ingress Controllers
-
-## 🧪 Configuration Management
-- Ansible
-- Server provisioning
-- Application configuration
-
-## 🔐 Security & Access Management
-- IAM Roles & Policies
-- Security Groups & NACLs
-- Secrets handling (no hardcoded credentials)
-
-## 📊 Monitoring & Logging
-- AWS CloudWatch
-- Prometheus (K8s)
-- Grafana
+# 🚀 Project: End-to-End AWS Infrastructure Automation & Application Deployment
+# 📌 Project Overview
+- This project demonstrates end-to-end infrastructure automation and application deployment on AWS using Terraform for Infrastructure as Code, Ansible for configuration management and application deployment, Bash scripting for automation tasks, and Amazon CloudWatch for monitoring and centralized logging.
+<pre>
+* The goal is to eliminate manual infrastructure provisioning and deployments while ensuring visibility and reliability through monitoring.
+</pre>
+# 🛠️ Tech Stack
+- AWS: EC2, VPC, IAM, CloudWatch
+- Terraform: Infrastructure provisioning
+- Ansible: Configuration management & app deployment
+- Bash: Automation scripts
+- Linux (Amazon Linux 2)
+- Nginx / Sample Web Application
+---
+# 🔧 Project Workflow
+<pre>
+🏗️ Architecture Overview
+Developer
+   |
+   |  terraform apply
+   v
+AWS Infrastructure
+(VPC, EC2, Security Groups, IAM)
+   |
+   |  Ansible Playbooks
+   v
+Application Deployment
+(Nginx / Web App)
+   |
+   |  Bash Scripts
+   v
+Service Automation
+   |
+   |  Logs & Metrics
+   v
+Amazon CloudWatch
+</pre>
