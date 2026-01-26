@@ -1,0 +1,32 @@
+Daily System Health Report
+Date: 2026-01-26
+
+===========================
+CPU Usage Summary
+---------------------------
+Peak CPU Usage: 90%
+Average CPU Usage: 53%
+Number of High CPU Alerts: 2
+Top Processes on High CPU:
+  - java (PID 2345)
+  - python (PID 3456)
+
+===========================
+Memory Usage Summary
+---------------------------
+Peak Memory Usage: 82%
+Average Memory Usage: 66%
+Number of High Memory Alerts: 1
+Top Processes on High Memory:
+  - mysql (PID 5678)
+
+===========================
+Disk Usage Summary
+---------------------------
+Mount Points:
+  - / : Max 51%
+  - /var : Max 92% (High Usage Warning)
+  - /home : Max 52%
+Number of Disk Alerts: 2
+
+=================
