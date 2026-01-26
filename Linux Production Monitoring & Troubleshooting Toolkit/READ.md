@@ -42,17 +42,41 @@ linux-prod-toolkit/
 │   ├── memory_check.sh
 │   ├── disk_check.sh
 │   ├── load_check.sh
-│   ├── network_check.sh
-│   └── process_check.sh
+│   └── network_check.sh
+│       │
+│       ▼
+│   Logs individual metrics to system_health.log
+│
+├── runner/
+│   └── run_all_checks.sh
+│       │
+│       ▼
+│   Orchestrates all monitor scripts
+│
 ├── logs/
 │   └── system_health.log
+│       │
+│       ▼
+│   Centralized log of all monitoring scripts
+│
 ├── reports/
 │   └── daily_report.txt
+│       │
+│       ▼
+│   Summarized daily metrics (peak, avg, alerts)
+│
 ├── cron/
 │   └── monitor_cron
-├── permissions/
-│   └── acl_setup.sh
-└── README.md
+│       │
+│       ▼
+│   Cron schedules runner script (or individual scripts)
+│
+└── permissions/
+    └── acl_setup.sh
+        │
+        ▼
+    Applies proper permissions for scripts, logs, and reports
+
 ```
 
 ---
