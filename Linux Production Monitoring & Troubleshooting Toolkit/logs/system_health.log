@@ -1,0 +1,41 @@
+[2026-01-26 09:55:00] [INFO] cpu_check.sh CPU usage normal: 35%
+[2026-01-26 09:55:00] [INFO] memory_check.sh Memory usage normal: 60%
+[2026-01-26 09:55:00] [INFO] disk_check.sh Disk usage: / 45%, /var 70%, /home 50%
+[2026-01-26 09:55:00] [INFO] load_check.sh Load Average: 0.56, 0.75, 0.80
+[2026-01-26 09:55:00] [INFO] network_check.sh Active listening ports: 12
+
+[2026-01-26 10:00:00] [WARN] cpu_check.sh High CPU usage: 87% | Top process: java (PID 2345)
+[2026-01-26 10:00:00] [INFO] memory_check.sh Memory usage normal: 62%
+[2026-01-26 10:00:00] [INFO] disk_check.sh Disk usage: / 47%, /var 70%, /home 50%
+[2026-01-26 10:00:00] [INFO] load_check.sh Load Average: 1.25, 0.95, 0.85
+[2026-01-26 10:00:00] [INFO] network_check.sh Active listening ports: 12
+
+[2026-01-26 10:05:00] [INFO] cpu_check.sh CPU usage normal: 40%
+[2026-01-26 10:05:00] [WARN] memory_check.sh High Memory usage: 82% | Top process: mysql (PID 5678)
+[2026-01-26 10:05:00] [WARN] disk_check.sh Disk usage high on /var: 92%
+[2026-01-26 10:05:00] [INFO] load_check.sh Load Average: 1.15, 1.10, 0.95
+[2026-01-26 10:05:00] [INFO] network_check.sh Active listening ports: 14
+
+[2026-01-26 10:10:00] [INFO] cpu_check.sh CPU usage normal: 42%
+[2026-01-26 10:10:00] [INFO] memory_check.sh Memory usage normal: 65%
+[2026-01-26 10:10:00] [INFO] disk_check.sh Disk usage: / 48%, /var 91%, /home 50%
+[2026-01-26 10:10:00] [WARN] load_check.sh Load Average high: 2.15, 1.85, 1.50
+[2026-01-26 10:10:00] [INFO] network_check.sh Active listening ports: 15
+
+[2026-01-26 10:15:00] [WARN] cpu_check.sh High CPU usage: 90% | Top process: java (PID 2345)
+[2026-01-26 10:15:00] [INFO] memory_check.sh Memory usage normal: 67%
+[2026-01-26 10:15:00] [INFO] disk_check.sh Disk usage: / 50%, /var 92%, /home 51%
+[2026-01-26 10:15:00] [INFO] load_check.sh Load Average: 2.35, 2.10, 1.80
+[2026-01-26 10:15:00] [INFO] network_check.sh Active listening ports: 15
+
+[2026-01-26 10:20:00] [INFO] cpu_check.sh CPU usage normal: 45%
+[2026-01-26 10:20:00] [INFO] memory_check.sh Memory usage normal: 70%
+[2026-01-26 10:20:00] [INFO] disk_check.sh Disk usage: / 51%, /var 90%, /home 52%
+[2026-01-26 10:20:00] [INFO] load_check.sh Load Average: 1.85, 1.55, 1.20
+[2026-01-26 10:20:00] [INFO] network_check.sh Active listening ports: 15
+
+[2026-01-26 10:25:00] [INFO] cpu_check.sh CPU usage normal: 40%
+[2026-01-26 10:25:00] [INFO] memory_check.sh Memory usage normal: 68%
+[2026-01-26 10:25:00] [INFO] disk_check.sh Disk usage: / 50%, /var 89%, /home 52%
+[2026-01-26 10:25:00] [INFO] load_check.sh Load Average: 1.35, 1.10, 0.90
+[2026-01-26 10:25:00] [INFO] network_check.sh Active listening ports: 14
