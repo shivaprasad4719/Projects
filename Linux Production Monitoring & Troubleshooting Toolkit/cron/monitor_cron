@@ -1,0 +1,25 @@
+# Linux Production Monitoring Cron Jobs
+# --------------------------------------
+# Author: DevOps Engineer
+# Description: Schedules monitoring scripts for CPU, Memory, Disk, Load, and Network
+# Note: Logs are appended to /opt/linux-prod-toolkit/logs/system_health.log
+# --------------------------------------
+
+# Run the orchestrator script every 5 minutes
+*/5 * * * * /opt/linux-prod-toolkit/runner/run_all_checks.sh >> /opt/linux-prod-toolkit/logs/system_health.log 2>&1
+
+# Optional: Individual cron entries for fine-grained control (uncomment if needed)
+# CPU check every 5 minutes
+#*/5 * * * * /opt/linux-prod-toolkit/monitor/cpu_check.sh >> /opt/linux-prod-toolkit/logs/system_health.log 2>&1
+
+# Memory check every 5 minutes
+#*/5 * * * * /opt/linux-prod-toolkit/monitor/memory_check.sh >> /opt/linux-prod-toolkit/logs/system_health.log 2>&1
+
+# Disk check every 10 minutes
+#*/10 * * * * /opt/linux-prod-toolkit/monitor/disk_check.sh >> /opt/linux-prod-toolkit/logs/system_health.log 2>&1
+
+# Load average check every 5 minutes
+#*/5 * * * * /opt/linux-prod-toolkit/monitor/load_check.sh >> /opt/linux-prod-toolkit/logs/system_health.log 2>&1
+
+# Network check every 10 minutes
+#*/10 * * * * /opt/linux-prod-toolkit/monitor/network_check.sh >> /opt/linux-prod-toolkit/logs/system_health.log 2>&1
